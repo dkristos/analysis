@@ -51,5 +51,5 @@ The intended audience for this document will be the client (David Brown) and the
 - Emily Hyrb
 - Tiffany Chan
 - Greg Murray
-- Delina Kristos
+- Delina Ghebrekristos
 
