@@ -8,9 +8,9 @@
   * [2.3 Control Objects](#23-control-objects)
   * [2.4 Boundary Objects](#24-boundary-objects)
 - [3. Further Steps](#3-further-steps)
-  * [3.1 Device Controller Class](#31-device-controller-class)
-  * [3.2 Connect Class](#32-connect-class)
-  * [3.3 Connect Class](#33-message-class)
+  * [3.1 User Event Loop](#31-user-event-loop)
+  * [3.2 Device Controller Event Loop](#32-device-controller-event-loop)  
+  * [3.3 User Controls](#33-user-controls)  
 - [4. Versions](#4-versions)
 - [5. Authored By](#5-authored-by)
 
@@ -40,19 +40,22 @@ The intended audience for this document will be the client (David Brown) and the
 - User Controller - Coordinates all matters related to user data
 
 ## 2.4 Boundary Objects
-- Relay - Enables the user to pass along messages to or from other users
-- Send - Enables the user to export or send messages to other users 
-- Receive - Enables the user to obtain or receive messages from other others
-- Connect - Establishes the first connection between relay nodes 
+- Relay - enables the user to pass along messages to or from other users
+- Send - enables the user to export or send messages to other users 
+- Receive - enables the user to obtain or receive messages from other others
+- Connect - establishes the first connection between relay nodes 
 - UserView - The UI of the application, connects the user to the application backend 
 
 # 3. Further Steps 
 
-## 3.1 Device Controller Class 
+## 3.1 User Event Loop
+<img src="https://cp317s18.github.io/analysis/User-Event-Loop.png" align="left" hspace="70" />
 
-## 3.2 Connect Class 
+## 3.2 Device Controller Event Loop
+<img src="https://cp317s18.github.io/analysis/Device-Controller-Event-Loop.png" align="left" hspace="70" />
 
-## 3.3 Message Class 
+## 3.3 User Controls 
+<img src="https://cp317s18.github.io/analysis/User-Controls.png" align="left" hspace="70" />
 
 # 4. Versions
 - Version 0.1 6/03/2018 `Document outline created` 
